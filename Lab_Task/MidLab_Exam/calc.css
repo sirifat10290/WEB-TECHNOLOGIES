@@ -50,7 +50,7 @@ form .display input{
     font-size: 45px;
     box-shadow: none;
 
-
+}
 form input.delete{
     color:red;
     width: 145px;
@@ -66,5 +66,4 @@ form input.equal{
 form input.operator{
     color: aqua;
     
-}
 }
