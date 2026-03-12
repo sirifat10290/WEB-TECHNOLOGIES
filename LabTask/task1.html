@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <header>
+            <section class="nav">
+             
+                <div class="logo">
+                    <h2 class="logo">Saiful Islam  </span></h2>
+                </div>
+
+                
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+                
+                <ul class="menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </section>
+        </header>
+        <section class="hero" id="hero">
+
+
+            <div class="herocontent">
+                <h4>Hello , Nice to see you! I'm</h4>
+                <h1>S<span class="surname">a</span>i<span>fu</span>l    <span>Is</span>la<span>m</span></h1>
+                <h2>A <span class="span2">Web</span> </span> Developer.</h2>
+                <h3>Creating Elegant <span class="span2">Web pages</span> beyond just </h3>
+                <h3 class="tag2">putting <span class="span2">Features</span> together.</h3>
+
+                <button class="btn1">Hire Me</button>
+                <button class="btn2">Resume  <i class="bi bi-download"></i></button>
+
+
+            </div>
+
+            <div class="image">
+                <img src="uiux-hero.png" alt=" " />
+            </div>
+
+        </section>
+        <!-- hero section ends -->
+
+
+        <!----About section start---->
+        <section class="about" id="about">
+            <div class="main">
+                <img src="about.jpg" class="aboutimg">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Full stack web developer</h5>
+                    <p>A student of aiub and tech enthusiast</p>
+                    <button type="button">Let's Talk</button>
+                </div>
+            </div>
+        </section>
+       
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">Key Skills</h2>
+                <div class="skills-content">
+                    <div class="column right">
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">HTML5,CSS3,Tailwind CSS</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line mern"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Javascript(ES6)</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line js"></div>
+                            </div>
+
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">React.js</span>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Prototyping</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line node"></div>
+                            </div>
+
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Figma ,canva,html ,css </span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line corecs"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <div class="service" id="projects">
+            <div class="title">
+                <h2 class="project-heading">Projects</h2>
+            </div>
+
+            <div class="box">
+                <div class="card">
+
+                    <h5>Project 1</h5>
+                    <div class="pra">
+                        <p>There are no project its for show</p>
+
+                        <p style="text-align: center;">
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <h5>Project 2</h5>
+                    <div class="pra">
+                        <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                        <p style="text-align: center;">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- contact us section starts  -->
+        <section class="contact" id="contact">
+
+            <h2 class="contactTitle">Contact Me</h2>
+            <div class="container contactUs">
+
+                <div class="contact-box">
+                    <div class="left contactLeft">
+                        <img src="contactus.jpg" class="contact-img" alt="" width="150px " />
+
+                        <div class="contact-info">
+                            <p><i class="bi bi-telephone-fill"></i> 01741297139</p>
+                            <p><i class="bi bi-envelope-fill"> </i>sailfu@gmail.com</p>
+                            <p><i class="bi bi-geo-alt-fill"></i> Dhaka, Bangladesh</p>
+
+                        </div>
+                        <p class='contact-content'>If you have any queries at all, please feel free to reach out and I'll gladly answer them. </p>
+
+                        <p class='contact-content'>Thanks for visiting .</p>
+
+                    </div>
+                    <div class="right contactRight">
+                        <h2 class='contacth2'>Lets Connect</h2>
+                        <form>
+                            <input type="text" class="field contactField" placeholder="Enter your Full Name" required/>
+                            <input type="email" class="field contactField" placeholder="Enter your Email" required/>
+                            <input type="text" class="field contactField" placeholder="Enter your Phone Number" />
+                            <textarea name="msg" placeholder="Suggestions/Queries" class="field contactField contactTextarea" required></textarea>
+                            <button class="btn contactBtn" type='submit'>Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="lab_social_icon_footer">
+
+            <div class="container">
+                <div class="text-center center-block">
+                    <a href=""><i class="bi bi-facebook social"></i></a>
+                    <a href=""><i class="bi bi-twitter social"></i></a>
+                    <a href=""><i class="bi bi-whatsapp social"></i></a>
+                    <a href="mailto:#"><i class="bi bi-envelope social"></i></a>
+
+                    <p class="footertext">© @Saiful_islam</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+</body>
+
+</html>
